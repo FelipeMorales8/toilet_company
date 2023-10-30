@@ -1,0 +1,153 @@
+* {
+	font-family: Arial;
+	margin: 0;
+	font-size: 100%;
+	background: #FFEEDB;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+	
+}
+/*Inicio de Header interfaz principal*/
+header {
+	background: #BDA6BC; 
+}
+/*Fin de Header*/
+	
+/*Incio Menu*/
+nav {
+	height: 100px;
+	width: 100%;
+}.img {
+	position: absolute;
+	padding: 10px 10px;
+	height: 80px;
+}nav ul{
+	padding-left: 700px;
+}nav ul  li {
+	padding-left: 10px;
+}nav ul li{
+	display: inline-block;
+}nav ul li a {
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 40px 10px;
+}li a:hover {
+	background: #DF98F5;
+	transition: .5s;
+}
+/*Fin de Menu*/
+
+/*Estilos de textos*/
+h1 {
+	display: inline-block;
+	position: absolute;
+	padding: 30px 30px;
+	height: 90px;
+	font-size: 25px;
+	padding-left: 120px;
+
+}p {
+	font-size: large;
+	padding-top: 60px;
+	width: 350px;
+	text-align: center;
+	padding-left: 35%;
+}.text{
+	
+}
+/*Fin estilos de textos*/
+
+/*Inicio imagenes*/
+img {
+	float: left;
+	height: 90px;
+	width: 90px;
+	padding-left: 5px;
+	filter: brightness(1.1);
+	mix-blend-mode: multiply;
+}
+
+img.Avatar {
+	float: center;
+	width: 100%;
+	height: 500px;
+}
+/*Fin Imagenes*/
+
+/* cajas productos */
+div.caja1 a {
+	color: white;
+	position: absolute;
+}div.caja1 {
+	margin: 20px;
+	display: inline-block;
+	border-radius: 40px;
+}div.caja2 a {
+	color: white;
+	position: relative;
+}div.caja2 {
+	margin: 20px;
+	display: inline-block;
+	border-radius: 40px;
+}.caja1 {
+	background-color: #CC00FF;
+	width: 390px;
+	height: 70px;
+	padding-top: 30px;
+	padding-left: 150px;
+}.caja2 {
+	background-image: url(../imagen/baño.jpg);
+	background-repeat: no-repeat;
+	width: 390px;
+	height: 70px;
+	padding-top: 30px;
+	float: right;
+	padding-left: 150px;
+}
+
+/*Incio estilos carrusel*/
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 10s infinite alternate;
+	animation-timing-function: ease-in;
+}.slider li {
+	width: 70%;
+	list-style: none;
+}@keyframes cambio {
+	0% { margin-left: 0; }
+	20% { margin-left: 0; }
+
+	25% { margin-left: -100%; }
+	45% { margin-left: -100%; }
+
+	50% { margin-left: -200%; }
+	70% { margin-left: -200%; }
+
+	75% { margin-left: -300%; }
+	100% { margin-left: -300%; }
+
+}.caja3 {
+	width: 70%;
+	padding-top: 70px;
+	float: left;
+	padding-left: 190px;
+}
+/*Fin estilos carrusel*/
+
+/*Inicio Footer*/
+.footer {
+	margin-top: 250px;
+	padding-top: 0px;
+	background: #0099FF;
+}
+/*Fin footer*/
+
